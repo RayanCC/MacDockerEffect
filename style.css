@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  background: linear-gradient(135deg, #2c3e50, #1a1a2e);
+  overflow: hidden;
+  padding: 20px;
+}
+
+.dock-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  z-index: 1000;
+}
